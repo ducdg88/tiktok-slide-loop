@@ -1,0 +1,21 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile scripts
+        run: python -m compileall -q scripts
+      - name: Validate example JSON
+        run: for f in examples/*.json; do python -m json.tool "$f" > /dev/null || exit 1; done
+      - name: Loop smoke test
+        env:
+          TIKTOK_SLIDE_WS: /tmp/ws
+        run: |
+          python scripts/series.py init
+          python scripts/series.py add-problem --pain "test" --source research --url https://example.com
+          python scripts/series.py report
