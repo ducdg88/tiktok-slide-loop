@@ -4,15 +4,15 @@
   "theme": "terminal",
   "episode": 4,
   "format": "ai_bao_cao_lao",
-  "hook_type": "so_lieu_ca_nhan",
+  "hook_type": "su_kien_that",
   "problem": "P004",
   "topic": "AI xoá database công ty trong 9 giây",
   "caption": "9 giây. Một AI agent xoá sạch database và cả bản sao lưu của một công ty thật. Đừng đưa chìa khoá kho cho AI. #congty1nguoi #AI #laptrinh #claudecode #ducpt",
   "slides": [
     {
       "type": "hook",
-      "headline": "**9 giây.**\nAI xoá sạch database của cả công ty",
-      "sub": "Không bị hack. Nó tự quyết →"
+      "headline": "**9 giây.**\nĐủ để AI xoá sạch dữ liệu cả công ty",
+      "sub": "Không bị hack. Nó tưởng mình đang giúp →"
     },
     {
       "type": "text",

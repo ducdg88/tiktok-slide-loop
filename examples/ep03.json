@@ -4,15 +4,15 @@
   "theme": "terminal",
   "episode": 3,
   "format": "ai_noi_vs_su_that",
-  "hook_type": "so_lieu_ca_nhan",
+  "hook_type": "phan_truc_giac",
   "problem": "P003",
   "topic": "AI bịa thư viện không tồn tại",
   "caption": "Cứ 5 đoạn code AI viết thì 1 đoạn gọi thư viện không có thật. Hacker đang chờ sẵn ở đó. Lưu lại để kiểm tra trước khi cài. #congty1nguoi #AI #laptrinh #claudecode #ducpt",
   "slides": [
     {
       "type": "hook",
-      "headline": "Cứ **5 đoạn code** AI viết,\ncó 1 đoạn gọi thư viện **không tồn tại**",
-      "sub": "Và hacker đang chờ đúng chỗ đó →"
+      "headline": "Hacker không cần hack bạn.\nChỉ cần chờ **AI bịa tên thư viện**",
+      "sub": "19,7% mẫu code AI dính lỗi này →"
     },
     {
       "type": "versus",

@@ -68,7 +68,7 @@ def slide_body(sl, th):
         return f"""<div class="fixbox"><div class="tag fixtag">{rich(sl.get('label', 'CÁCH TRỊ'))}</div>
 <h2>{rich(sl.get('headline'))}</h2><p>{rich(sl.get('body'))}</p></div>"""
     if t == "list":
-        items = "".join(f"<li><span>{i+1}</span>{rich(x)}</li>" for i, x in enumerate(sl.get("items", [])))
+        items = "".join(f"<li><span>{i}</span>{rich(x)}</li>" for i, x in enumerate(sl.get("items", []), sl.get("start", 1)))
         return f"""<div class="listbox"><h2>{rich(sl.get('headline'))}</h2><ol>{items}</ol></div>"""
     if t == "cta":
         kw = sl.get("keyword")

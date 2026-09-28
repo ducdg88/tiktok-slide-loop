@@ -4,15 +4,15 @@
   "theme": "terminal",
   "episode": 5,
   "format": "checklist",
-  "hook_type": "so_lieu_ca_nhan",
+  "hook_type": "phan_truc_giac",
   "problem": "P005",
   "topic": "Checklist kiểm code AI gần đúng",
   "caption": "45% lập trình viên bực nhất vì code AI gần đúng. Lưu 5 bước này để kiểm trước khi tin. #congty1nguoi #AI #laptrinh #claudecode #ducpt",
   "slides": [
     {
       "type": "hook",
-      "headline": "Điều lập trình viên **ghét nhất** ở AI:\ncode **gần đúng**",
-      "sub": "45% người được hỏi chọn đáp án này →",
+      "headline": "Code AI **sai hẳn** còn đỡ.\n**Gần đúng** mới nguy",
+      "sub": "45% lập trình viên chọn đây là nỗi bực số 1 →",
       "source": "Stack Overflow Developer Survey 2025"
     },
     {

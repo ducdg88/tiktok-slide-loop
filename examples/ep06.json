@@ -4,15 +4,15 @@
   "theme": "terminal",
   "episode": 6,
   "format": "dap_hieu_lam",
-  "hook_type": "phan_truc_giac",
+  "hook_type": "so_lieu_that",
   "problem": "P006",
   "topic": "Dùng AI nhưng không tin AI",
   "caption": "84% dùng AI, chỉ 29% tin nó đúng. Không tin thì làm sao giao việc? Câu trả lời ở slide 5. #congty1nguoi #AI #laptrinh #claudecode #ducpt",
   "slides": [
     {
       "type": "hook",
-      "headline": "**84%** lập trình viên dùng AI.\nChỉ **29%** tin nó đúng 🤔",
-      "sub": "Vậy sao vẫn dùng? →",
+      "headline": "**84%** dùng AI.\nChỉ **29%** tin nó nói đúng 🤔",
+      "sub": "Vậy họ dùng kiểu gì? →",
       "source": "Stack Overflow Developer Survey 2025"
     },
     {

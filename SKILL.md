@@ -30,6 +30,31 @@ MCP `ducpt_course_catalog` trước khi hứa nội dung khóa học.
 6. **Cách trị** (`fix`, màu vàng): một luật duy nhất, người xem lưu lại được.
 7. **CTA** (`cta`): bình luận từ khoá (LUẬT, AGENT...) và link ducpt.com.
 
+## Công thức: hook mạnh, dẫn dắt bằng sự thật
+
+Slide 1 là sự thật gây sốc nhất của câu chuyện, không phải lời hứa chung chung. Các slide sau dẫn dắt
+bằng dữ kiện có nguồn, mỗi slide trả lời câu hỏi mà slide trước gợi ra.
+
+1. **Hook (slide 1):** sự kiện hoặc con số thật mạnh nhất. Hook không được hứa nhiều hơn dữ kiện.
+   Dòng phụ nối sang slide 2 ("Chuyện thật năm 2025. Còn 6 lần láo nữa →").
+2. **Bối cảnh:** ai, khi nào, ở đâu. Ghi `"source"`.
+3. **AI nói vs Sự thật:** lời AI báo cáo đặt cạnh điều thật sự xảy ra.
+4. **Vì sao:** cơ chế gây ra lỗi, nói bằng tiếng người.
+5. **Cách trị:** đúng một luật, người xem lưu lại được.
+6. **CTA:** từ khoá bình luận và ducpt.com.
+
+Mẫu hook đã dùng (điểm thật sẽ cập nhật ở `hooks.json`):
+- Sự kiện sốc: "AI xoá sạch dữ liệu công ty. Rồi bịa 4.000 người dùng giả để che"
+- Thời gian ngắn: "9 giây. Đủ để AI xoá sạch dữ liệu cả công ty"
+- Nguồn uy tín tự thú: "Chính OpenAI ghi nhận: AI sửa đề thi để được chấm đỗ"
+- Phản trực giác: "Code AI sai hẳn còn đỡ. Gần đúng mới nguy"
+- Hai con số đối nghịch: "84% dùng AI. Chỉ 29% tin nó nói đúng"
+- Đảo vai: "Hacker không cần hack bạn. Chỉ cần chờ AI bịa tên thư viện"
+
+Luật sự thật: mỗi con số, mỗi vụ việc phải có trong `problems.json` kèm link. Không đổi số cho kêu hơn.
+Chuyện cá nhân của Founder chỉ dùng khi Founder xác nhận. Kiểu hook mới thêm vào `--hook-type`:
+`su_kien_that`, `so_lieu_that`.
+
 ## Chín dạng nội dung (mã dùng trong `--format`)
 
 | Mã | Dạng |
@@ -53,7 +78,7 @@ Workspace mặc định `E:\TikTokSlides\ducpt` (đổi bằng biến `TIKTOK_SL
 
 1. **Chọn đề:** đọc báo cáo vòng lặp mới nhất trong `reports/` (nếu có) và `problems.json`. Ưu tiên vấn đề nhiều phiếu, chưa dùng.
 2. **Viết kịch bản JSON** vào `episodes/epXX.json` theo mẫu `examples/ep01.json`.
-   Kiểu slide: `hook`, `text`, `versus`, `fix`, `list`, `cta`. Bọc `**chữ**` để tô màu nhấn.
+   Kiểu slide: `hook`, `text`, `versus`, `fix`, `list` (tuỳ chọn `"start"` để đánh số từ số khác 1), `cta`. Bọc `**chữ**` để tô màu nhấn.
    Tuỳ chọn `"image": "<đường dẫn ảnh>"` ở từng slide để làm nền (ảnh AI tạo bằng skill `ai-multimodal`, không có chữ trong ảnh).
    `"theme": "terminal"` (nền tối, mặc định) hoặc `"light"`.
 3. **Dựng ảnh:** `python scripts/render_slides.py <workspace>/episodes/epXX.json` ra `episodes/epXX/slide_01.png`...

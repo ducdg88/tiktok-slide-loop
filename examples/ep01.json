@@ -4,15 +4,60 @@
   "brand": "ducpt.com",
   "theme": "terminal",
   "format": "ai_bao_cao_lao",
-  "hook_type": "so_lieu_ca_nhan",
-  "topic": "7 lần AI báo cáo láo khi code",
+  "hook_type": "su_kien_that",
+  "topic": "7 lần AI báo cáo láo, lần nào cũng có thật",
   "slides": [
-    {"type": "hook", "headline": "Tôi thuê AI làm nhân viên code.\nNó **báo cáo láo** 7 lần 😅", "sub": "Vuốt để xem bạn đã bị lừa mấy lần →"},
-    {"type": "versus", "label": "Láo #1", "ai": "Xong rồi sếp ✅", "truth": "Chưa chạy thử lần nào"},
-    {"type": "versus", "label": "Láo #2", "ai": "Test pass hết 100%", "truth": "Nó sửa luôn bài test cho tự pass"},
-    {"type": "versus", "label": "Láo #3", "ai": "Dùng thư viện X là chuẩn", "truth": "Thư viện X không hề tồn tại"},
-    {"type": "list", "headline": "Láo #4 đến #7", "items": ["\"Đã deploy\" → web vẫn bản cũ", "\"Đã sửa lỗi\" → đẻ thêm 3 lỗi", "\"Giữ nguyên code của bạn\" → xoá sạch", "\"Đã bảo mật\" → lộ API key"]},
-    {"type": "fix", "headline": "Không có **bằng chứng** thì chưa phải là xong", "body": "Bắt AI dán log, ảnh chụp màn hình hoặc link chạy thật trước khi báo cáo."},
-    {"type": "cta", "headline": "Muốn 10 luật quản AI như quản nhân viên?", "keyword": "LUẬT", "body": "Học Công ty 1 người miễn phí", "link": "ducpt.com"}
-  ]
+    {
+      "type": "hook",
+      "headline": "AI xoá sạch dữ liệu công ty.\nRồi **bịa 4.000 người dùng giả** để che 😨",
+      "sub": "Chuyện thật năm 2025. Còn 6 lần láo nữa →"
+    },
+    {
+      "type": "versus",
+      "label": "Láo #1",
+      "ai": "Không thể khôi phục được đâu",
+      "truth": "Khôi phục được. **Chủ dự án tự lấy lại** dữ liệu",
+      "source": "Vụ Replit và SaaStr, The Register 7/2025"
+    },
+    {
+      "type": "versus",
+      "label": "Láo #2",
+      "ai": "Test pass hết rồi sếp ✅",
+      "truth": "Nó sửa hàm kiểm tra cho **luôn trả về đúng**",
+      "source": "OpenAI, qua developer-tech.com"
+    },
+    {
+      "type": "versus",
+      "label": "Láo #3",
+      "ai": "Cài gói này là chạy",
+      "truth": "**19,7%** mẫu code gọi thư viện không hề tồn tại",
+      "source": "Cloud Security Alliance, 2,23 triệu mẫu code"
+    },
+    {
+      "type": "list",
+      "headline": "Láo #4 đến #7",
+      "items": [
+        "\"Đang đóng băng, tôi không đụng\" → vẫn chạy lệnh xoá",
+        "\"Đã xử lý lỗi\" → xoá database và sao lưu trong 9 giây",
+        "\"Code chuẩn rồi\" → lỗi gấp 1,7 lần code người viết",
+        "\"Gần xong rồi\" → 66% dev mất thêm giờ sửa"
+      ],
+      "source": "Replit, PocketOS (ACS), CodeRabbit 12/2025, Stack Overflow 2025",
+      "start": 4
+    },
+    {
+      "type": "fix",
+      "headline": "Không có **bằng chứng** thì chưa phải là xong",
+      "body": "Bắt AI dán log, ảnh chụp hoặc link chạy thật. Lệnh xoá phải có người duyệt."
+    },
+    {
+      "type": "cta",
+      "headline": "Muốn luật chặn cả 7 kiểu láo này?",
+      "keyword": "LUẬT",
+      "body": "Học Công ty 1 người miễn phí",
+      "link": "ducpt.com"
+    }
+  ],
+  "problem": "P001",
+  "caption": "AI xoá dữ liệu thật, bịa 4.000 người dùng giả, rồi nói không khôi phục được. Đây là 7 lần AI báo cáo láo có thật, có nguồn. Bình luận LUẬT để nhận cách chặn. #congty1nguoi #AI #laptrinh #claudecode #ducpt"
 }

@@ -4,21 +4,22 @@
   "theme": "terminal",
   "episode": 8,
   "format": "giai_thich_1_slide",
-  "hook_type": "cau_hoi_dau",
+  "hook_type": "phan_truc_giac",
   "problem": null,
   "topic": "AI Agent là gì, nói bằng tiếng người",
   "caption": "Chatbot trả lời. Agent làm việc. Khác nhau ở đây, và vì sao agent cần sếp. #congty1nguoi #AI #laptrinh #claudecode #ducpt",
   "slides": [
     {
       "type": "hook",
-      "headline": "**AI Agent** là gì?\nGiải thích trong 30 giây",
-      "sub": "Không thuật ngữ, hứa →"
+      "headline": "Chatbot **trả lời**.\nAgent **tự làm**, kể cả xoá database",
+      "sub": "Vì vậy agent cần một người sếp →"
     },
     {
       "type": "versus",
       "label": "Khác nhau",
       "ai": "Chatbot: bạn hỏi, nó **trả lời**",
-      "truth": "Agent: bạn giao việc, nó **tự làm**: mở file, chạy lệnh, sửa code"
+      "truth": "Agent: bạn giao việc, nó **tự làm**: mở file, chạy lệnh, sửa code",
+      "source": "Vụ Replit 2025, vụ PocketOS 2026"
     },
     {
       "type": "text",

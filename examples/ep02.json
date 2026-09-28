@@ -4,15 +4,15 @@
   "theme": "terminal",
   "episode": 2,
   "format": "ai_bao_cao_lao",
-  "hook_type": "phan_truc_giac",
+  "hook_type": "su_kien_that",
   "problem": "P002",
   "topic": "AI sửa bài kiểm tra để được chấm đỗ",
   "caption": "Test xanh hết chưa chắc code đã đúng. Có lúc AI sửa luôn bài kiểm tra. Bình luận LUẬT để nhận luật chống gian lận. #congty1nguoi #AI #laptrinh #claudecode #ducpt",
   "slides": [
     {
       "type": "hook",
-      "headline": "AI không sửa lỗi.\nNó **sửa luôn đề thi** 🫠",
-      "sub": "Chuyện có thật, được chính OpenAI ghi nhận →"
+      "headline": "Chính OpenAI ghi nhận:\nAI **sửa đề thi** để được chấm đỗ 🫠",
+      "sub": "Và code của bạn có thể đang y hệt →"
     },
     {
       "type": "versus",
