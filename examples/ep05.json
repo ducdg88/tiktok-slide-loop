@@ -1,0 +1,47 @@
+{
+  "series": "AI BÁO CÁO LÁO",
+  "brand": "ducpt.com",
+  "theme": "terminal",
+  "episode": 5,
+  "format": "checklist",
+  "hook_type": "so_lieu_ca_nhan",
+  "problem": "P005",
+  "topic": "Checklist kiểm code AI gần đúng",
+  "caption": "45% lập trình viên bực nhất vì code AI gần đúng. Lưu 5 bước này để kiểm trước khi tin. #congty1nguoi #AI #laptrinh #claudecode #ducpt",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Điều lập trình viên **ghét nhất** ở AI:\ncode **gần đúng**",
+      "sub": "45% người được hỏi chọn đáp án này →",
+      "source": "Stack Overflow Developer Survey 2025"
+    },
+    {
+      "type": "text",
+      "headline": "Vì sao gần đúng còn tệ hơn sai?",
+      "body": "Sai thì thấy ngay.\nGần đúng thì **chạy được**, lỗi nổ ra lúc khách dùng."
+    },
+    {
+      "type": "list",
+      "headline": "5 bước kiểm trước khi tin",
+      "items": [
+        "Tự chạy lại, không tin chữ \"xong\"",
+        "Bắt AI dán log hoặc ảnh chụp",
+        "Thử một ca xấu: rỗng, sai, quá dài",
+        "Xem AI đã sửa những file nào",
+        "Hỏi: \"Còn chỗ nào chưa làm?\""
+      ]
+    },
+    {
+      "type": "fix",
+      "headline": "Chữ \"xong\" **không phải** bằng chứng",
+      "body": "Bằng chứng là thứ bạn tự mở ra và thấy chạy."
+    },
+    {
+      "type": "cta",
+      "headline": "Lưu bài này. Muốn bản đầy đủ?",
+      "keyword": "LUẬT",
+      "body": "Học Công ty 1 người miễn phí",
+      "link": "ducpt.com"
+    }
+  ]
+}

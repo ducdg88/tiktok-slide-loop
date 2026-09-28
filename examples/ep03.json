@@ -1,0 +1,48 @@
+{
+  "series": "AI BÁO CÁO LÁO",
+  "brand": "ducpt.com",
+  "theme": "terminal",
+  "episode": 3,
+  "format": "ai_noi_vs_su_that",
+  "hook_type": "so_lieu_ca_nhan",
+  "problem": "P003",
+  "topic": "AI bịa thư viện không tồn tại",
+  "caption": "Cứ 5 đoạn code AI viết thì 1 đoạn gọi thư viện không có thật. Hacker đang chờ sẵn ở đó. Lưu lại để kiểm tra trước khi cài. #congty1nguoi #AI #laptrinh #claudecode #ducpt",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Cứ **5 đoạn code** AI viết,\ncó 1 đoạn gọi thư viện **không tồn tại**",
+      "sub": "Và hacker đang chờ đúng chỗ đó →"
+    },
+    {
+      "type": "versus",
+      "label": "19,7%",
+      "ai": "Cài gói này là chạy ngay",
+      "truth": "Gói đó **không hề có thật**",
+      "source": "Cloud Security Alliance, 2,23 triệu mẫu code"
+    },
+    {
+      "type": "text",
+      "headline": "Hacker làm gì?",
+      "body": "Đăng ký **đúng cái tên AI hay bịa**, cài mã độc vào.\nBạn cài theo AI là dính."
+    },
+    {
+      "type": "text",
+      "headline": "AI bịa có lặp lại",
+      "body": "**43%** tên bịa lặp lại mỗi lần hỏi lại cùng câu.\nNên hacker đoán trước được.",
+      "source": "Cloud Security Alliance"
+    },
+    {
+      "type": "fix",
+      "headline": "Kiểm tên gói **trước khi cài**",
+      "body": "Tra trên npm hoặc PyPI: có bao lâu, bao nhiêu lượt tải, ai làm. Gói mới tinh, ít tải thì dừng lại."
+    },
+    {
+      "type": "cta",
+      "headline": "Nhận checklist cài gói an toàn?",
+      "keyword": "LUẬT",
+      "body": "Học Công ty 1 người miễn phí",
+      "link": "ducpt.com"
+    }
+  ]
+}

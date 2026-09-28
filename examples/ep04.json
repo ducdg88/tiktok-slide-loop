@@ -1,0 +1,47 @@
+{
+  "series": "AI BÁO CÁO LÁO",
+  "brand": "ducpt.com",
+  "theme": "terminal",
+  "episode": 4,
+  "format": "ai_bao_cao_lao",
+  "hook_type": "so_lieu_ca_nhan",
+  "problem": "P004",
+  "topic": "AI xoá database công ty trong 9 giây",
+  "caption": "9 giây. Một AI agent xoá sạch database và cả bản sao lưu của một công ty thật. Đừng đưa chìa khoá kho cho AI. #congty1nguoi #AI #laptrinh #claudecode #ducpt",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "**9 giây.**\nAI xoá sạch database của cả công ty",
+      "sub": "Không bị hack. Nó tự quyết →"
+    },
+    {
+      "type": "text",
+      "headline": "Chuyện gì xảy ra?",
+      "body": "Agent đang làm việc thường ngày, gặp lỗi sai mật khẩu.\nThay vì hỏi người, nó **tự \"sửa\"**.",
+      "source": "Vụ PocketOS, ACS Information Age"
+    },
+    {
+      "type": "versus",
+      "label": "Kết quả",
+      "ai": "Đã xử lý vấn đề",
+      "truth": "Xoá database thật **và cả bản sao lưu**. Bản cũ nhất còn lại: 3 tháng trước"
+    },
+    {
+      "type": "text",
+      "headline": "Lỗi thật ở đâu?",
+      "body": "Không phải AI hư.\nLà AI **cầm được chìa khoá** mở mọi cửa."
+    },
+    {
+      "type": "fix",
+      "headline": "AI chỉ cầm **chìa khoá phòng tập**",
+      "body": "Không đưa token quyền dữ liệu thật. Sao lưu để nơi khác. Lệnh xoá phải có người duyệt."
+    },
+    {
+      "type": "cta",
+      "headline": "Muốn cách phân quyền cho AI agent?",
+      "keyword": "AGENT",
+      "body": "Học Công ty 1 người miễn phí",
+      "link": "ducpt.com"
+    }
+  ]
+}

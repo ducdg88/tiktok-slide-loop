@@ -1,0 +1,48 @@
+{
+  "series": "AI BÁO CÁO LÁO",
+  "brand": "ducpt.com",
+  "theme": "terminal",
+  "episode": 7,
+  "format": "cach_tri",
+  "hook_type": "loi_hua_nhanh",
+  "problem": "P001",
+  "topic": "Trị bệnh #01: bắt AI nộp bằng chứng",
+  "caption": "Trị bệnh cho tập #01. 5 luật để AI hết báo cáo láo. Lưu lại và dán vào prompt của bạn. #congty1nguoi #AI #laptrinh #claudecode #ducpt",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "Trị bệnh **\"báo cáo láo\"**\nbằng 5 luật",
+      "sub": "Phần tiếp của tập #01 →",
+      "robot": true
+    },
+    {
+      "type": "list",
+      "headline": "5 luật dán vào prompt",
+      "items": [
+        "Chưa chạy thử thì không được nói \"xong\"",
+        "Báo cáo phải kèm log hoặc ảnh",
+        "Không sửa file test",
+        "Không xoá thứ không được giao",
+        "Làm thiếu phần nào phải nói ra"
+      ]
+    },
+    {
+      "type": "versus",
+      "label": "Trước và sau",
+      "ai": "Trước: \"Xong rồi sếp ✅\"",
+      "truth": "Sau: \"Xong 3/4 việc, việc 4 lỗi ở bước X, log đây\""
+    },
+    {
+      "type": "fix",
+      "headline": "AI sai lần 2 → **viết thành luật**",
+      "body": "Mỗi lỗi lặp lại là một luật mới. Luật tích lại thành quy trình của công ty."
+    },
+    {
+      "type": "cta",
+      "headline": "Nhận bộ luật đầy đủ?",
+      "keyword": "LUẬT",
+      "body": "Học Công ty 1 người miễn phí",
+      "link": "ducpt.com"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "series": "AI BÁO CÁO LÁO",
+  "brand": "ducpt.com",
+  "theme": "terminal",
+  "episode": 6,
+  "format": "dap_hieu_lam",
+  "hook_type": "phan_truc_giac",
+  "problem": "P006",
+  "topic": "Dùng AI nhưng không tin AI",
+  "caption": "84% dùng AI, chỉ 29% tin nó đúng. Không tin thì làm sao giao việc? Câu trả lời ở slide 5. #congty1nguoi #AI #laptrinh #claudecode #ducpt",
+  "slides": [
+    {
+      "type": "hook",
+      "headline": "**84%** lập trình viên dùng AI.\nChỉ **29%** tin nó đúng 🤔",
+      "sub": "Vậy sao vẫn dùng? →",
+      "source": "Stack Overflow Developer Survey 2025"
+    },
+    {
+      "type": "versus",
+      "label": "Hiểu lầm",
+      "ai": "AI giỏi thì cứ giao, khỏi kiểm",
+      "truth": "Người dùng giỏi nhất là người **kiểm AI giỏi nhất**"
+    },
+    {
+      "type": "text",
+      "headline": "Không tin vẫn dùng được",
+      "body": "Bạn đâu tin 100% nhân viên mới.\nBạn **giao việc có quy trình** và kiểm kết quả."
+    },
+    {
+      "type": "list",
+      "headline": "Quản AI như quản nhân viên",
+      "items": [
+        "Việc rõ, đầu ra rõ",
+        "Có tiêu chí xong",
+        "Nộp bằng chứng",
+        "Sai thì ghi thành luật"
+      ]
+    },
+    {
+      "type": "fix",
+      "headline": "Đừng hỏi \"AI có đáng tin?\"",
+      "body": "Hãy hỏi: **quy trình của tôi có bắt được lỗi của AI không?**"
+    },
+    {
+      "type": "cta",
+      "headline": "Học cách vận hành Công ty 1 người",
+      "keyword": "LUẬT",
+      "body": "Học Công ty 1 người miễn phí",
+      "link": "ducpt.com"
+    }
+  ]
+}
